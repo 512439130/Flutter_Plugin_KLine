@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_kline_time">Thời gian</string>
+    <string name="txt_kline_high">Cao</string>
+    <string name="txt_kline_low">Thấp</string>
+
+    <string name="txt_kline_box_high">Cao nhất</string>
+    <string name="txt_kline_box_low">Thấp nhất</string>
+    <string name="txt_kline_box_open">Mở</string>
+    <string name="txt_kline_box_close">Đóng</string>
+    <string name="txt_kline_gain">Tăng</string>
+    <string name="txt_kline_amplitude">Biên độ</string>
+    <string name="txt_kline_vol">Đóng cửa</string>
+
+    <string name="txt_kline_unit_k">K</string>
+    <string name="txt_kline_unit_m">M</string>
+    <string name="txt_kline_unit_b">B</string>
+</resources>

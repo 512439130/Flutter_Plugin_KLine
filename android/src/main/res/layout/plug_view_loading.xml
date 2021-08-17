@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:gravity="center_horizontal"
+    android:padding="15dp">
+<!--android:background="@drawable/progress_custom_bg"-->
+    <ImageView
+        android:id="@+id/loadingImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/icon_loading_bg" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/icon_loading_logo" />
+</RelativeLayout>
+
+
+

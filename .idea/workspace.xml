@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="INDEX" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d063846-1c0d-4e93-92fd-8f90798bfdbd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qb1pNky2GeeFAfNT9CIBE00GBn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/Users/a123/AndroidStudioProjects/new_project/flutter_zb/flutter_plugin_kline/android/src/main/java/com/zb/flutter/flutter_plugin_kline/view/klinechart/view/BaseKLineChartView.java_SELECTED" value="BaseKLineChartView" />
+    <property name="android-custom-view/Users/a123/AndroidStudioProjects/new_project/flutter_zb/flutter_plugin_kline/android/src/main/java/com/zb/flutter/flutter_plugin_kline/view/klinechart/view/ScrollAndScaleView.java_SELECTED" value="ScrollAndScaleView" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/a123/AndroidStudioProjects/new_project/flutter_zb/flutter_plugin_kline/android/src/main/java/com/zb/flutter/flutter_plugin_kline/view/klinechart/view/BaseKLineChartView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/a123/AndroidStudioProjects/new_project/flutter_zb/flutter_plugin_kline/android/src/main/java/com/zb/flutter/flutter_plugin_kline/view/klinechart/view/ScrollAndScaleView.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="flutter_plugin_kline" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="flutter_plugin_kline" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d063846-1c0d-4e93-92fd-8f90798bfdbd" name="Default Changelist" comment="" />
+      <created>1617333657829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617333657829</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="125" width="2360" height="1124" key="DiffContextDialog" timestamp="1629173186819">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state x="100" y="125" width="2360" height="1124" key="DiffContextDialog/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186819" />
+    <state width="2518" height="368" key="GridCell.Tab.0.bottom" timestamp="1629173186809">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state width="2518" height="368" key="GridCell.Tab.0.bottom/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186809" />
+    <state width="2518" height="368" key="GridCell.Tab.0.center" timestamp="1629173186808">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state width="2518" height="368" key="GridCell.Tab.0.center/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186808" />
+    <state width="2518" height="368" key="GridCell.Tab.0.left" timestamp="1629173186808">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state width="2518" height="368" key="GridCell.Tab.0.left/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186808" />
+    <state width="2518" height="368" key="GridCell.Tab.0.right" timestamp="1629173186808">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state width="2518" height="368" key="GridCell.Tab.0.right/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186808" />
+    <state x="785" y="393" key="RollbackChangesDialog" timestamp="1629172974779">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state x="785" y="393" key="RollbackChangesDialog/0.25.2560.1324@0.25.2560.1324" timestamp="1629172974779" />
+    <state x="100" y="125" width="2360" height="1124" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1629173186820">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state x="100" y="125" width="2360" height="1124" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186820" />
+    <state x="100" y="125" width="2360" height="1124" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1629173186820">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state x="100" y="125" width="2360" height="1124" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.2560.1324@0.25.2560.1324" timestamp="1629173186820" />
+    <state x="972" y="413" width="925" height="548" key="find.popup" timestamp="1629172682134">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state x="972" y="413" width="925" height="548" key="find.popup/0.25.2560.1324@0.25.2560.1324" timestamp="1629172682134" />
+    <state x="945" y="327" width="670" height="676" key="search.everywhere.popup" timestamp="1629173180513">
+      <screen x="0" y="25" width="2560" height="1324" />
+    </state>
+    <state x="945" y="327" width="670" height="676" key="search.everywhere.popup/0.25.2560.1324@0.25.2560.1324" timestamp="1629173180513" />
+  </component>
+</project>

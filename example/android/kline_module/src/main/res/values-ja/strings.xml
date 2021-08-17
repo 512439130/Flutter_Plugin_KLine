@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_kline_time">時間</string>
+    <string name="txt_kline_high">高い</string>
+    <string name="txt_kline_low">低い</string>
+
+    <string name="txt_kline_box_high">最高</string>
+    <string name="txt_kline_box_low">最低</string>
+    <string name="txt_kline_box_open">開く</string>
+    <string name="txt_kline_box_close">閉じる</string>
+    <string name="txt_kline_gain">増やす</string>
+    <string name="txt_kline_amplitude">振幅</string>
+    <string name="txt_kline_vol">閉会</string>
+
+    <string name="txt_kline_unit_k">K</string>
+    <string name="txt_kline_unit_m">M</string>
+    <string name="txt_kline_unit_b">B</string>
+</resources>

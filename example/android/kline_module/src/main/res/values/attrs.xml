@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KLineChartView">
+        <!--公共的-->
+        <!--默认字体-->
+        <attr name="kc_text_size" format="dimension"/>
+        <attr name="kc_text_color" format="color"/>
+        <!--最大值最小值字体-->
+        <attr name="max_min_text_size" format="dimension"/>
+        <attr name="max_min_circle_stroke_size" format="dimension"/>
+        <attr name="kc_max_color" format="color"/>
+        <attr name="kc_min_color" format="color"/>
+        <attr name="kc_normal_color" format="color"/>
+        <attr name="kc_white_color" format="color"/>
+
+        <attr name="kc_line_width" format="dimension"/>
+        <attr name="kc_background_color" format="color"/>
+
+        <attr name="kc_point_width" format="dimension"/>
+
+        <attr name="kc_candle_gap_width" format="dimension"/>
+        <attr name="kc_candle_width" format="dimension"/>
+        <attr name="kc_candle_line_width" format="dimension"/>
+
+
+        <attr name="kc_selected_line_color" format="color"/>
+        <attr name="kc_selected_line_width" format="dimension"/>
+        <attr name="kc_selected_point_color" format="color"/>
+        <attr name="kc_selected_point_stroke_color" format="color"/>
+
+        <attr name="kc_current_line_color" format="color"/>
+        <attr name="kc_current_line_width" format="dimension"/>
+        <attr name="kc_current_point_color" format="color"/>
+        <attr name="kc_current_point_stroke_color" format="color"/>
+
+
+        <attr name="kc_grid_line_width" format="dimension"/>
+        <attr name="kc_grid_line_color" format="color"/>
+
+        <!--macd-->
+        <attr name="kc_macd_width" format="dimension"/>
+        <attr name="kc_dif_color" format="color"/>
+        <attr name="kc_dea_color" format="color"/>
+        <attr name="kc_macd_color" format="color"/>
+        <!--kdj-->
+        <attr name="kc_k_color" format="color"/>
+        <attr name="kc_d_color" format="color"/>
+        <attr name="kc_j_color" format="color"/>
+        <!--rsi-->
+        <attr name="kc_rsi1_color" format="color"/>
+        <attr name="kc_rsi2_color" format="color"/>
+        <attr name="kc_ris3_color" format="color"/>
+        <!--boll-->
+        <attr name="kc_up_color" format="color"/>
+        <attr name="kc_mb_color" format="color"/>
+        <attr name="kc_dn_color" format="color"/>
+        <!--main-->
+        <attr name="kc_ma5_color" format="color"/>
+        <attr name="kc_ma10_color" format="color"/>
+        <attr name="kc_ma20_color" format="color"/>
+
+        <attr name="kc_selector_background_color" format="color"/>
+        <attr name="kc_selector_stroke_color" format="color"/>
+        <attr name="kc_selector_text_size" format="dimension"/>
+        <attr name="kc_selector_text_color" format="color"/>
+        <attr name="kc_candle_solid" format="boolean"/>
+        <!--tab-->
+        <attr name="kc_tab_background_color" format="color"/>
+        <attr name="kc_tab_text_color" format="color"/>
+        <attr name="kc_tab_indicator_color" format="color"/>
+
+    </declare-styleable>
+
+
+    <!--深度图-->
+    <declare-styleable name="DepthView">
+        <!--买方线条颜色、线条宽度、背景颜色-->
+        <attr name="dvBuyLineCol" format="color"/>
+        <attr name="dvBuyLineStrokeWidth" format="integer"/>
+        <attr name="dvBuyBgStartCol" format="color"/>
+        <attr name="dvBuyBgEndCol" format="color"/>
+        <attr name="dvSellBgStartCol" format="color"/>
+        <attr name="dvSellBgEndCol" format="color"/>
+
+        <!--卖方线条颜色、背景颜色-->
+        <attr name="dvSellLineCol" format="color"/>
+        <attr name="dvSellLineStrokeWidth" format="integer"/>
+
+        <!--纵坐标颜色、字体大小-->
+        <attr name="dvOrdinateCol" format="color"/>
+        <attr name="dvOrdinateTextSize" format="integer"/>
+        <!--纵坐标个数-->
+        <attr name="dvOrdinateNum" format="integer"/>
+        <!--横坐标颜色、字体大小-->
+        <attr name="dvAbscissaCol" format="color"/>
+        <attr name="dvAbscissaTextSize" format="integer"/>
+        <!--详情背景颜色、字体颜色、字体大小、游标线颜色-->
+        <attr name="dvDetailBgCol" format="color"/>
+        <attr name="dvDetailTextCol" format="color"/>
+        <attr name="dvDetailTextSize" format="integer"/>
+        <attr name="dvDetailLineCol" format="color"/>
+        <!--游标线宽度、交界圆点半径、价格文字说明、数量文字说明-->
+        <attr name="dvDetailLineWidth" format="float" />
+        <attr name="dvDetailPointRadius" format="integer"/>
+        <attr name="dvDetailPriceTitle" format="string"/>
+        <attr name="dvDetailVolumeTitle" format="string"/>
+
+
+
+    </declare-styleable>
+
+    <!--shadow  阴影-->
+    <declare-styleable name="ShadowContainer">
+        <attr name="containerShadowColor" format="color"/> <!--设置阴影颜色-->
+        <attr name="containerShadowRadius" format="dimension"/> <!--设置阴影的扩展距离-->
+        <attr name="containerDeltaLength" format="dimension"/> <!--设置子View到ShadowContainer的距离-->
+        <attr name="containerCornerRadius" format="dimension"/> <!--设置子View背景的圆角大小-->
+        <attr name="deltaX" format="dimension"/> <!--设置阴影在X轴移动距离-->
+        <attr name="deltaY" format="dimension"/> <!--设置阴影在Y轴移动距离-->
+        <attr name="isRadius" format="boolean"/> <!--是否圆角-->
+        <attr name="isSingle" format="boolean"/> <!--是否单边 false：默认四边-->
+        <attr name="singleType" format="string"/> <!--top:顶部 left，right bottom-->
+        <attr name="enable" format="boolean"/> <!--开关-->
+    </declare-styleable>
+</resources>

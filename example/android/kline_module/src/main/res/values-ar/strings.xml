@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_kline_time">الوقت</string>
+    <string name="txt_kline_high">عالي</string>
+    <string name="txt_kline_low">منخفض</string>
+
+    <string name="txt_kline_box_high">أعلى</string>
+    <string name="txt_kline_box_low">الأدنى</string>
+    <string name="txt_kline_box_open">افتح</string>
+    <string name="txt_kline_box_close">أغلق</string>
+    <string name="txt_kline_gain">زيادة</string>
+    <string name="txt_kline_amplitude">السعة</string>
+    <string name="txt_kline_vol">إغلاق</string>
+
+    <string name="txt_kline_unit_k">K</string>
+    <string name="txt_kline_unit_m">M</string>
+    <string name="txt_kline_unit_b">B</string>
+</resources>

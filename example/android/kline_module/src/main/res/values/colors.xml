@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="chart_background">#1B1924</color>
+    <color name="loading_color">#f1f12c1e</color>
+
+    <color name="chart_time_line">#D5142B</color>
+    <color name="chart_time_line_background">#30E40434</color>
+
+
+    <!--顶部指标-->
+    <color name="chart_ma5">#E6D8A0</color>
+    <color name="chart_ma10">#00B18F</color>
+    <color name="chart_ma30">#C08FE6</color>
+    <color name="chart_white">#ffffff</color>
+
+
+
+    <color name="chart_green">#40D090</color>
+    <color name="chart_red">#D11D3D</color>
+    <color name="text_kline_green">#40D090</color>
+    <color name="text_kline_red">#D11D3D</color>
+
+
+    <!--默认字体颜色-->
+    <color name="kc_text_color">#9B9B9B</color>
+
+    <color name="kc_max_color">#D0021B</color>
+    <color name="kc_min_color">#40D090</color>
+
+
+    <color name="kc_normal_color">#1B1924</color>
+
+    <color name="kc_white_color">#FFFFFF</color>
+
+
+    <!--渐变效果的选择线-->
+    <color name="chart_selector_y_start_light">#551B1924</color>
+    <color name="chart_selector_y_end_light">#201B1924</color>
+
+
+
+    <color name="chart_grid_line_light">#979797</color>
+
+    <color name="chart_selector_box_background_light">#FFFFFF</color>
+    <color name="chart_selector_box_stroke_light">#F4F4F4</color>
+    <color name="chart_selector_box_text_color_light">#8D9BA8</color>
+
+    <color name="chart_selected_line_x_color_light">#1B1924</color>
+    <color name="chart_selected_line_y_color_light">#1B1924</color>
+
+    <color name="chart_selected_point_color_light">#FFFFFF</color>
+    <color name="chart_selected_point_stroke_color_light">#39FFFFFF</color>
+
+
+
+    <!--night-->
+    <color name="chart_selector_y_start_night">#55FFFFFF</color>
+    <color name="chart_selector_y_end_night">#20FFFFFF</color>
+
+    <color name="chart_grid_line_night">#979797</color>
+
+    <color name="chart_selector_box_background_night">#1B1924</color>
+    <color name="chart_selector_box_stroke_night">#7D7A88</color>
+    <color name="chart_selector_box_text_color_night">#8D9BA8</color>
+
+    <color name="chart_selected_line_x_color_night">#FFFFFF</color>
+    <color name="chart_selected_line_y_color_night">#FFFFFF</color>
+
+    <color name="chart_selected_point_color_night">#1B1924</color>
+    <color name="chart_selected_point_stroke_color_night">#191B1924</color>
+
+    <color name="chart_selected_frame_stroke_color_night">#FFFFFF</color>
+    <color name="chart_selected_frame_bg_color_light">#FFFFFF</color>
+
+
+
+
+    <!--K线图颜色值-->
+    <!--light-->
+    <color name="custom_item_kline_bg_light">#FFFFFF</color>
+    <color name="custom_item_kline_color_red_light">#FFE91C41</color>
+    <color name="custom_item_kline_color_green_light">#FF40D090</color>
+    <color name="custom_item_kline_5_day_line_light">#FF27B4FF</color>
+    <color name="custom_item_kline_10_day_line_light">#FFF8AD54</color>
+    <color name="custom_item_kline_30_day_line_light">#FFF94BFF</color>
+    <!--kline：X，Y刻度-->
+    <color name="custom_item_kline_text_color_light">#798592</color>
+    <!--kline：经维度-->
+    <color name="custom_item_kline_line_color_light">#dbdce2</color>
+    <color name="custom_color_kline_timer_line_color_light">#E40434</color>
+    <color name="custom_color_kline_timer_circle_stroke_color_light">#D1E7FF</color>
+    <color name="custom_color_kline_timer_start_text_color_light">#50E40434</color>
+    <color name="custom_color_kline_timer_end_text_color_light">#10745BD8</color>
+
+
+    <color name="custom_attr_theme_color_light">#FFFFFF</color>
+    <color name="custom_attr_divider_bg_color_light">#F3F4F8</color>
+    <color name="custom_attr_input_box_bg_color_light">#D3D3D3</color>
+    <color name="custom_attr_input_box_50_bg_color_light">#50D3D3D3</color>
+    <color name="custom_attr_keyword_txt_color_light">#333333</color>
+    <color name="custom_attr_secondary_keyword_txt_color_light">#666666</color>
+    <color name="custom_attr_hint_txt_color_light">#CCCCCC</color>
+
+    <color name="custom_attr_foot_shadow_color_light">#12000000</color>
+    <!--  insert-->
+    <color name="custom_attr_depth_num_color_light">#666666</color>
+    <color name="custom_attr_depth_left_title_color_light">#8D9BA8</color>
+    <color name="custom_attr_switch_title_color_light">#313038</color>
+
+    <color name="custom_attr_login_welcome_txt_color_light">#666666</color>
+
+
+
+    <!--indicator字体颜色-默认 -->
+    <color name="custom_color_app_hq_indicator_text_color_default_light">#FF909CA8</color>
+    <!--indicator字体颜色-选中 -->
+    <color name="custom_color_app_hq_indicator_text_color_select_light">#FF263D58</color>
+    <!--search输入文本颜色 -->
+    <color name="custom_color_app_hq_search_text_color_light">#FFB2B7BE</color>
+    <!--search提示文本颜色 -->
+    <color name="custom_color_app_hq_search_hint_text_color_light">#FFB2B7BE</color>
+    <!--底部tab背景色 -->
+    <color name="custom_color_app_hq_footer_tab_layout_bg_light">#FFFFFFFF</color>
+
+    <!--聊天-->
+    <color name="custom_attr_chat_bottom_root_bg_color_light">#F3F4F8</color>
+    <color name="custom_attr_chat_menu_item_bg_color_light">#FFFFFF</color>
+    <!--行情页：小K-->
+    <color name="custom_color_app_hq_kline_item_top_background_light">#F8F9FF</color>
+    <color name="custom_color_app_hq_kline_item_top_title_text_color_light">#666D76</color>
+    <color name="custom_color_app_hq_kline_item_top_vol_text_color_light">#27364A</color>
+    <color name="custom_color_app_hq_kline_item_top_center_line_color_light">#F7F8FE</color>
+    <color name="custom_color_app_hq_kline_item_bottom_title_text_color_light">#27364A</color>
+    <color name="custom_color_app_hq_kline_item_indicator_text_color_default_light">#798592</color>
+    <color name="custom_color_app_hq_kline_item_indicator_text_color_select_light">#243C59</color>
+    <color name="custom_color_app_hq_kline_item_indicator_line_color_light">#EA3758</color>
+
+
+
+
+
+
+    <!--大K线-->
+    <!--背景-->
+    <color name="custom_color_kline_chart_background_light">#FFFFFF</color>
+    <!--背景网格线颜色-->
+    <color name="custom_color_kline_chart_grid_line_light">#F4F4F4</color>
+    <!--loading-->
+    <color name="custom_color_kline_loading_color_light">#f1f12c1e</color>
+    <!--分时-->
+    <color name="custom_color_kline_chart_time_line_light">#D5142B</color>
+    <color name="custom_color_kline_chart_time_line_background_light">#30E40434</color>
+    <!--指标-->
+    <color name="custom_color_kline_chart_ma5_light">#E6D8A0</color>
+    <color name="custom_color_kline_chart_ma10_light">#00B18F</color>
+    <color name="custom_color_kline_chart_ma30_light">#C08FE6</color>
+    <color name="custom_color_kline_chart_white_light">#ffffff</color>
+    <!--K线红绿-->
+    <color name="custom_color_kline_chart_green_light">#40D090</color>
+    <color name="custom_color_kline_chart_red_light">#D11D3D</color>
+    <color name="custom_color_kline_text_kline_green_light">#40D090</color>
+    <color name="custom_color_kline_text_kline_red_light">#D11D3D</color>
+    <!--默认字体颜色-->
+    <color name="custom_color_kline_kc_text_color_light">#999999</color>
+    <!--最大值最小值字体颜色-->
+    <color name="custom_color_kline_red_text_color_light">#D0021B</color>
+    <color name="custom_color_kline_green_text_color_light">#40D090</color>
+    <!--按压box-->
+    <color name="custom_color_kline_chart_selector_box_background_light">#FFFFFF</color>
+    <color name="custom_color_kline_chart_selector_box_stroke_light">#C4C9D7</color>
+    <color name="custom_color_kline_chart_selector_box_text_color_light">#999999</color>
+    <!--渐变效果的按压线 Y轴-->
+    <color name="custom_color_kline_chart_selector_y_start_light">#551B1924</color>
+    <color name="custom_color_kline_chart_selector_y_end_light">#201B1924</color>
+    <!--按压线 X轴-->
+    <color name="custom_color_kline_chart_selected_line_x_color_light">#333333</color>
+    <color name="custom_color_kline_chart_selected_line_y_color_light">#333333</color>
+
+    <color name="custom_color_kline_chart_frame_stroke_color_light">#333333</color>
+    <color name="custom_color_kline_chart_frame_bg_color_light">#FFFFFF</color>
+    <!--按压点-->
+    <color name="custom_color_kline_chart_selected_point_color_light">#333333</color>
+    <color name="custom_color_kline_chart_selected_point_stroke_color_light">#19333333</color>
+
+    <color name="custom_color_depth_history_title_text_color_light">#555F67</color>
+
+
+    <color name="custom_color_depth_red_line_color_light">#E91C41</color>
+    <color name="custom_color_depth_red_start_bg_light">#10E91C41</color>
+    <color name="custom_color_depth_red_center_bg_light">#15E91C41</color>
+    <color name="custom_color_depth_red_end_bg_light">#FFE91C41</color>
+    <color name="custom_color_depth_green_line_color_light">#40D090</color>
+    <color name="custom_color_depth_green_start_bg_light">#1040D090</color>
+    <color name="custom_color_depth_green_center_bg_light">#1540D090</color>
+    <color name="custom_color_depth_green_end_bg_light">#FF40D090</color>
+    <color name="custom_color_depth_select_circle_bg_light">#F5F5F5</color>
+    <color name="custom_color_depth_select_box_text_color_light">#FFFFFF</color>
+
+
+    <!--KLine TAB-->
+    <!--title-->
+    <color name="custom_color_kline_title_price_text_color_red_light">#D11D3D</color>
+    <color name="custom_color_kline_title_price_text_color_green_light">#40D090</color>
+    <color name="custom_color_kline_title_price_text_color_grey_light">#7C8793</color>
+    <color name="custom_color_kline_title_24_text_color_light">#3E3E3E</color>
+
+    <color name="custom_color_indicator_bottom_line_color_light">#F7F8FE</color>
+    <color name="custom_color_kline_bottom_line_color_light">#F7F8FE</color>
+    <color name="custom_color_kline_indicator_bg_light">#FFFFFF</color>
+    <color name="custom_color_kline_indicator_text_color_default_light">#FF909CA8</color>
+    <color name="custom_color_kline_indicator_text_color_select_light">#D11D3D</color>
+
+
+
+    <!--trans-->
+    <!--trans：梯形按钮-->
+    <color name="custom_trapezoid_btn_left_select_bg_light">#FFE91C41</color>
+    <color name="custom_trapezoid_btn_right_select_bg_light">#FF40D090</color>
+    <color name="custom_trapezoid_btn_un_select_bg_light">#FFE3E3E3</color>
+    <color name="custom_trapezoid_btn_text_default_color_light">#FF919EAC</color>
+    <color name="custom_trapezoid_btn_text_select_color_light">#FFFFFFFF</color>
+    <!--trans：交易对颜色-->
+    <color name="custom_trans_header_pair_select_text_color_light">#FF27364A</color>
+    <color name="custom_trans_header_pair_select_ch_text_color_light">#FF8D9BA8</color>
+    <!--trans：交易页-全屏版indicator-->
+    <color name="custom_trans_indicator_content_bg_normal_light">#FFF5F4F9</color>
+    <color name="custom_trans_indicator_bg_stroke_normal_light">#FFEAEAEA</color>
+    <color name="custom_trans_indicator_buy_content_bg_select_light">#FFE91C41</color>
+    <color name="custom_trans_indicator_sell_content_bg_select_light">#FF40D090</color>
+    <color name="custom_trans_indicator_current_entrust_content_bg_select_light">#FF749DF1</color>
+    <color name="custom_trans_indicator_history_entrust_content_bg_select_light">#FF749DF1</color>
+
+    <!--trans：交易页滑动指示器-->
+    <color name="custom_trans_vol_progress_line_default_color_light">#FFE4E9EF</color>
+    <color name="custom_trans_vol_progress_line_select_color_red_light">#FFE91C41</color>
+    <color name="custom_trans_vol_progress_line_select_color_green_light">#FF40D090</color>
+
+
+    <!--trans：交易页输入框相关-->
+    <color name="custom_trans_input_value_text_color_light">#FF5E6C80</color>
+    <color name="custom_trans_input_value_bg_light">#FFFFFF</color>
+    <color name="custom_trans_input_stroke_bg_light">#E5E5E8</color>
+    <color name="custom_trans_input_hint_text_color_light">#FF91989E</color>
+    <color name="custom_trans_input_unit_text_color_light">#FF91989E</color>
+    <color name="custom_trans_input_bottom_text_color_light">#FF8D9BA8</color>
+
+    <color name="custom_trans_submit_btn_text_default_color_light">#FFFFFFFF</color>
+    <color name="custom_trans_submit_btn_text_select_color_light">#FFFFFFFF</color>
+    <color name="custom_trans_submit_btn_text_disabled_color_light">#FFFFFFFF</color>
+    <!--trans：交易页展开项相关-->
+    <color name="custom_trans_expand_title_bg_light">#FF1B1924</color>
+    <color name="custom_trans_expand_top_text_color_light">#FF8D9BA8</color>
+    <color name="custom_trans_expand_item_title_text_color_light">#FFAEB9CA</color>
+    <color name="custom_trans_expand_item_vol_text_color_light">#FF8D9BA8</color>
+    <!--trans：交易页盘口相关-->
+    <color name="custom_trans_trade_title_color_light">#FF8D9BA8</color>
+    <color name="custom_trans_trade_value_price_color_green_light">#FF40D090</color>
+
+    <color name="custom_trans_trade_value_price_color_red_light">#FFE91C41</color>
+    <color name="custom_trans_trade_value_price_bg_green_light">#FF40D090</color>
+    <color name="custom_trans_trade_value_price_bg_red_light">#FFE91C41</color>
+    <color name="custom_trans_trade_value_amount_color_light">#FF8D9BA8</color>
+    <color name="custom_trans_trade_center_price_assist_color_light">#FFAEB9CA</color>
+    <color name="custom_trans_trade_bottom_btn_text_color_light">#FF96A2B0</color>
+
+    <color name="custom_attr_lever_radio_border_light">#FFF3F4F8</color>
+
+
+
+    <!--trans：交易页-单屏版-委托相关-->
+
+    <color name="custom_trans_line_color_light">#F7F8FE</color>
+    <color name="custom_trans_entrust_bg_light">#FFFFFFFF</color>
+    <color name="custom_trans_entrust_title_left_text_color_light">#FF27364A</color>
+    <color name="custom_trans_entrust_title_right_text_color_light">#FF1B1924</color>
+    <color name="custom_trans_entrust_null_tip_text_color_light">#FFC5C5C5</color>
+
+
+    <color name="custom_trans_entrust_item_time_text_color_light">#27364A</color>
+    <color name="custom_trans_entrust_item_title_text_color_light">#8D9BA8</color>
+    <color name="custom_trans_entrust_item_vol_text_color_light">#4E545B</color>
+
+
+    <!--交易页右侧菜单-->
+    <color name="custom_trans_right_menu_bg_light" >#FFFFFFFF</color>
+    <color name="custom_trans_right_menu_item_text_color_light" >#FF333333</color>
+
+    <!--交易页底部菜单-->
+    <color name="custom_trans_bottom_menu_bg_light">#FFFFFFFF</color>
+    <color name="custom_trans_bottom_menu_item_text_select_color_light">#FFD11D3D</color>
+    <color name="custom_trans_bottom_menu_item_text_default_color_light">#FF5B606D</color>
+    <color name="custom_trans_bottom_menu_item_line_color_light">#FFF0F0F0</color>
+    <!--交易——数据页背景-->
+    <color name="custom_trans_data_bg_light">#FFF7F8FE</color>
+    <!--交易——数据页item背景-->
+    <color name="custom_trans_data_item_bg_light">#FFFFFFFF</color>
+
+    <color name="custom_divide_line_color_light">#FFFFFFFF</color>
+
+    <color name="custom_trans_title_text_color_light">#1b1924</color>
+
+    <!--分割线-->
+    <color name="item_vertical_line_color_light">#FFF7F8FE</color>
+    <!--委托分割线-->
+    <color name="item_entrust_line_color_light">#FFEDEDED</color>
+
+
+    <!--顶部TabText-->
+    <color name="custom_title_tab_text_select_color_light">#F8E0E4</color>
+    <color name="custom_title_tab_text_default_color_light">#D11D3D</color>
+
+    <!--扫一扫 结果列表item 币种字体颜色-->
+    <color name="custom_qr_code_result_item_currency_light">#FF747380</color>
+    <!--编辑自选 币种名称 颜色-->
+    <color name="custom_edit_collect_currency_name_light">#FF3F506E</color>
+
+    <color name="custom_zapp_back_to_home_btn_light">#FFF2F4FC</color>
+    <color name="custom_zapp_home_bar_bg_light">#FFFFFF</color>
+
+    <color name="custom_progress_bg_light">#33999999</color>
+    <color name="custom_entrust_item_divider_light">#EEEEEF</color>
+    <color name="custom_entrust_item_expand_bg_light">#F3F4F8</color>
+
+    <color name="custom_trans_dialog_count_down_shade_light">#C9F3F4F8</color>
+
+    <color name="custom_attr_banner_point_color_light">#333333</color>
+
+    <color name="custom_attr_entrust_txt_color_light">#FFFFFF</color>
+
+    <color name="zb_color_999999">#999999</color>
+    <color name="zb_color_red">#e91c41</color>
+    <color name="zb_color_green">#40D090</color>
+    <color name="zb_color_yellow">#F0AE10</color>
+    <color name="zb_color_white">#FFFFFF</color>
+    <color name="zb_color_D11D3D">#D11D3D</color>
+
+
+
+
+
+    <color name="custom_attr_theme_color_night">#1b1924</color>
+    <color name="custom_attr_divider_bg_color_night">#0F0D14</color>
+    <color name="custom_attr_input_box_bg_color_night">#3D3D3D</color>
+    <color name="custom_attr_input_box_50_bg_color_night">#503D3D3D</color>
+    <color name="custom_attr_keyword_txt_color_night">#FFFFFF</color>
+    <color name="custom_attr_secondary_keyword_txt_color_night">#CCCCCC</color>
+    <color name="custom_attr_hint_txt_color_night">#666666</color>
+
+    <color name="custom_attr_foot_shadow_color_night">#24000000</color>
+
+
+    <!--  insert-->
+    <color name="custom_attr_depth_num_color_night">#8d9ba8</color>
+    <color name="custom_attr_depth_left_title_color_night">#4A5661</color>
+    <color name="custom_attr_switch_title_color_night">#8D9BA8</color>
+
+    <color name="custom_attr_login_welcome_txt_color_night">#999999</color>
+
+    <!--indicator字体颜色-默认 -->
+    <color name="custom_color_app_hq_indicator_text_color_default_night">#FF909CA8</color>
+    <!--indicator字体颜色-选中 -->
+    <color name="custom_color_app_hq_indicator_text_color_select_night">#FFD11D3D</color>
+    <!--search输入文本颜色 -->
+    <color name="custom_color_app_hq_search_text_color_night">#FF585A5D</color>
+    <!--search提示文本颜色 -->
+    <color name="custom_color_app_hq_search_hint_text_color_night">#FF585A5D</color>
+    <!--底部tab背景色 -->
+    <color name="custom_color_app_hq_footer_tab_layout_bg_night">#FF1B1924</color>
+
+    <!--聊天-->
+    <color name="custom_attr_chat_bottom_root_bg_color_night">#292734</color>
+    <color name="custom_attr_chat_menu_item_bg_color_night">#1A999999</color>
+
+    <!--行情页：小K-->
+    <color name="custom_color_app_hq_kline_item_top_background_night">#1b1924</color>
+    <color name="custom_color_app_hq_kline_item_top_title_text_color_night">#5B606B</color>
+    <color name="custom_color_app_hq_kline_item_top_vol_text_color_night">#F7F7F7</color>
+    <color name="custom_color_app_hq_kline_item_top_center_line_color_night">#F7F8FE</color>
+    <color name="custom_color_app_hq_kline_item_bottom_title_text_color_night">#8D959F</color>
+    <color name="custom_color_app_hq_kline_item_indicator_text_color_default_night">#5B606B</color>
+    <color name="custom_color_app_hq_kline_item_indicator_text_color_select_night">#FFF7F7F7</color>
+    <color name="custom_color_app_hq_kline_item_indicator_line_color_night">#FFEA3758</color>
+    <!--小K线图颜色值-->
+    <!--kline-->
+    <color name="custom_item_kline_bg_night">#1b1924</color>
+    <color name="custom_item_kline_color_red_night">#FFE91C41</color>
+    <color name="custom_item_kline_color_green_night">#FF40D090</color>
+    <color name="custom_item_kline_5_day_line_night">#FF27B4FF</color>
+    <color name="custom_item_kline_10_day_line_night">#FFF8AD54</color>
+    <color name="custom_item_kline_30_day_line_night">#FFF94BFF</color>
+    <!--kline：X，Y刻度-->
+    <color name="custom_item_kline_text_color_night">#5B606B</color>
+    <!--kline：经维度-->
+    <color name="custom_item_kline_line_color_night">#737580</color>
+
+
+    <!--大K线-->
+    <!--背景-->
+    <color name="custom_color_kline_chart_background_night">#1b1924</color>
+    <!--背景网格线颜色-->
+    <color name="custom_color_kline_chart_grid_line_night">#1d1e21</color>
+    <!--loading-->
+    <color name="custom_color_kline_loading_color_night">#f1f12c1e</color>
+    <!--分时-->
+    <color name="custom_color_kline_chart_time_line_night">#D5142B</color>
+    <color name="custom_color_kline_chart_time_line_background_night">#30E40434</color>
+    <!--顶部指标-->
+    <color name="custom_color_kline_chart_ma5_night">#E6D8A0</color>
+    <color name="custom_color_kline_chart_ma10_night">#00B18F</color>
+    <color name="custom_color_kline_chart_ma30_night">#C08FE6</color>
+    <color name="custom_color_kline_chart_white_night">#ffffff</color>
+    <!--k线红绿-->
+    <color name="custom_color_kline_chart_green_night">#40D090</color>
+    <color name="custom_color_kline_chart_red_night">#D11D3D</color>
+    <color name="custom_color_kline_text_kline_green_night">#40D090</color>
+    <color name="custom_color_kline_text_kline_red_night">#D11D3D</color>
+    <!--默认字体颜色-->
+    <color name="custom_color_kline_kc_text_color_night">#999999</color>
+    <!--最大值最小值字体颜色-->
+    <color name="custom_color_kline_red_text_color_night">#D0021B</color>
+    <color name="custom_color_kline_green_text_color_night">#40D090</color>
+
+    <!--分时渐变色-->
+    <color name="custom_color_kline_timer_line_color_night">#E40434</color>
+    <color name="custom_color_kline_timer_circle_stroke_color_night">#D1E7FF</color>
+    <color name="custom_color_kline_timer_start_text_color_night">#65E40434</color>
+    <color name="custom_color_kline_timer_end_text_color_night">#20745BD8</color>
+
+    <!--按压box-->
+    <color name="custom_color_kline_chart_selector_box_background_night">#1b1924</color>
+    <color name="custom_color_kline_chart_selector_box_stroke_night">#C4C9D7</color>
+    <color name="custom_color_kline_chart_selector_box_text_color_night">#999999</color>
+    <!--渐变效果的按压线 Y轴-->
+    <color name="custom_color_kline_chart_selector_y_start_night">#55FFFFFF</color>
+    <color name="custom_color_kline_chart_selector_y_end_night">#20FFFFFF</color>
+    <!--按压线-->
+    <color name="custom_color_kline_chart_selected_line_x_color_night">#FFFFFF</color>
+    <color name="custom_color_kline_chart_selected_line_y_color_night">#FFFFFF</color>
+
+    <color name="custom_color_kline_chart_frame_stroke_color_night">#FFFFFF</color>
+    <color name="custom_color_kline_chart_frame_bg_color_night">#333333</color>
+    <!--按压点-->
+    <color name="custom_color_kline_chart_selected_point_color_night">#FFFFFF</color>
+    <color name="custom_color_kline_chart_selected_point_stroke_color_night">#39FFFFFF</color>
+
+    <color name="custom_color_depth_history_title_text_color_night">#555F67</color>
+
+    <color name="custom_color_depth_red_line_color_night">#E91C41</color>
+    <color name="custom_color_depth_red_start_bg_night">#48E91C41</color>
+    <color name="custom_color_depth_red_center_bg_night">#19E91C41</color>
+    <color name="custom_color_depth_red_end_bg_night">#10E91C41</color>
+    <color name="custom_color_depth_green_line_color_night">#40D090</color>
+    <color name="custom_color_depth_green_start_bg_night">#4840D090</color>
+    <color name="custom_color_depth_green_center_bg_night">#1040D090</color>
+    <color name="custom_color_depth_green_end_bg_night">#1011433A</color>
+    <color name="custom_color_depth_select_circle_bg_night">#F5F5F5</color>
+    <color name="custom_color_depth_select_box_text_color_night">#FFFFFF</color>
+
+
+    <!--KLine TAB-->
+    <!--title-->
+    <color name="custom_color_kline_title_price_text_color_red_night">#D11D3D</color>
+    <color name="custom_color_kline_title_price_text_color_green_night">#40D090</color>
+    <color name="custom_color_kline_title_price_text_color_grey_night">#FFFFFF</color>
+    <color name="custom_color_kline_title_24_text_color_night">#FFFFFF</color>
+
+    <color name="custom_color_indicator_bottom_line_color_night">#0F0D14</color>
+    <color name="custom_color_kline_bottom_line_color_night">#0F0D14</color>
+    <color name="custom_color_kline_indicator_bg_night">#1B1924</color>
+    <color name="custom_color_kline_indicator_text_color_default_night">#FF909CA8</color>
+    <color name="custom_color_kline_indicator_text_color_select_night">#D11D3D</color>
+
+
+
+
+
+    <!--trans-->
+    <!--trans：梯形按钮-->
+    <color name="custom_trapezoid_btn_left_select_bg_night">#FFE91C41</color>
+    <color name="custom_trapezoid_btn_right_select_bg_night">#40D090</color>
+    <color name="custom_trapezoid_btn_un_select_bg_night">#FFE3E3E3</color>
+    <color name="custom_trapezoid_btn_text_default_color_night">#FF91989E</color>
+    <color name="custom_trapezoid_btn_text_select_color_night">#FFFFFFFF</color>
+    <!--trans：交易对颜色-->
+    <color name="custom_trans_header_pair_select_text_color_night">#FFE7E7E7</color>
+    <color name="custom_trans_header_pair_select_ch_text_color_night">#FF8D9BA8</color>
+    <!--trans：交易页-全屏版indicator-->
+    <color name="custom_trans_indicator_content_bg_normal_night">#FF33353A</color>
+    <color name="custom_trans_indicator_bg_stroke_normal_night">#FF33353A</color>
+    <color name="custom_trans_indicator_buy_content_bg_select_night">#FFE91C41</color>
+    <color name="custom_trans_indicator_sell_content_bg_select_night">#FF40D090</color>
+    <color name="custom_trans_indicator_current_entrust_content_bg_select_night">#FF749DF1</color>
+    <color name="custom_trans_indicator_history_entrust_content_bg_select_night">#FF749DF1</color>
+
+    <!--trans：交易页滑动指示器-->
+    <color name="custom_trans_vol_progress_line_default_color_night">#FF757575</color>
+    <color name="custom_trans_vol_progress_line_select_color_red_night">#FFE91C41</color>
+    <color name="custom_trans_vol_progress_line_select_color_green_night">#FF40D090</color>
+
+    <!--trans：交易页输入框相关-->
+    <color name="custom_trans_input_value_text_color_night">#FF5E6C80</color>
+    <color name="custom_trans_input_value_bg_night">#FF121314</color>
+    <color name="custom_trans_input_stroke_bg_night">#FF3A3A3A</color>
+    <color name="custom_trans_input_hint_text_color_night">#FF404C56</color>
+    <color name="custom_trans_input_unit_text_color_night">#FF404C56</color>
+    <color name="custom_trans_input_bottom_text_color_night">#FF5D5E5E</color>
+
+    <color name="custom_trans_submit_btn_text_default_color_night">#FFFFFF</color>
+    <color name="custom_trans_submit_btn_text_select_color_night">#FFFFFF</color>
+    <color name="custom_trans_submit_btn_text_disabled_color_night">#20FFFFFF</color>
+
+    <!--trans：交易页展开项相关-->
+    <color name="custom_trans_expand_title_bg_night">#FF1B1924</color>
+    <color name="custom_trans_expand_top_text_color_night">#FF8D9BA8</color>
+    <color name="custom_trans_expand_item_title_text_color_night">#FF5D5E5E</color>
+    <color name="custom_trans_expand_item_vol_text_color_night">#FF8D9BA8</color>
+
+    <!--trans：交易页盘口相关-->
+    <color name="custom_trans_trade_title_color_night">#FF8D9BA8</color>
+    <color name="custom_trans_trade_value_price_color_green_night">#FF40D090</color>
+    <color name="custom_trans_trade_value_price_color_red_night">#FFE91C41</color>
+
+    <color name="custom_trans_trade_value_price_bg_green_night">#FF35ea9a</color>
+    <color name="custom_trans_trade_value_price_bg_red_night">#FFfd1b44</color>
+    <color name="custom_trans_trade_value_amount_color_night">#FF8D9BA8</color>
+    <color name="custom_trans_trade_center_price_assist_color_night">#FFAEB9CA</color>
+    <color name="custom_trans_trade_bottom_btn_text_color_night">#FF555D67</color>
+
+    <color name="custom_attr_lever_radio_border_night">#FF333333</color>
+
+
+    <!--trans：交易页-单屏版-委托相关-->
+    <color name="custom_trans_line_color_night">#0B090F</color>
+    <color name="custom_trans_entrust_bg_night">#1B1924</color>
+    <color name="custom_trans_entrust_title_left_text_color_night">#FF7B8689</color>
+    <color name="custom_trans_entrust_title_right_text_color_night">#FFD2D2D2</color>
+    <color name="custom_trans_entrust_null_tip_text_color_night">#FFC5C5C5</color>
+    <!--entrust_item-->
+    <color name="custom_trans_entrust_item_time_text_color_night">#788EAA</color>
+    <color name="custom_trans_entrust_item_title_text_color_night">#3F4C5D</color>
+    <color name="custom_trans_entrust_item_vol_text_color_night">#788EAA</color>
+
+
+    <!--交易页右侧菜单-->
+    <color name="custom_trans_right_menu_bg_night">#FF25222E</color>
+    <color name="custom_trans_right_menu_item_text_color_night">#FFCCCCCC</color>
+
+    <!--交易页底部菜单-->
+    <color name="custom_trans_bottom_menu_bg_night">#FF25222E</color>
+    <color name="custom_trans_bottom_menu_item_text_select_color_night">#FFD11D3D</color>
+    <color name="custom_trans_bottom_menu_item_text_default_color_night">#FFCCCCCC</color>
+    <color name="custom_trans_bottom_menu_item_line_color_night">#121316</color>
+
+    <!--交易——数据页背景-->
+    <color name="custom_trans_data_bg_night">#FF0F0D14</color>
+    <!--交易——数据页item背景-->
+    <color name="custom_trans_data_item_bg_night">#FF1B1924</color>
+
+    <color name="custom_divide_line_color_night">#FF0F0D14</color>
+    <color name="custom_trans_title_text_color_night">#FFFFFFFF</color>
+
+    <!--分割线-->
+    <color name="item_vertical_line_color_night">#FF0F0D14</color>
+    <!--委托分割线-->
+    <color name="item_entrust_line_color_night">#EEEEEF</color>
+
+
+    <!--顶部TabText-->
+    <color name="custom_title_tab_text_select_color_night">#F8E0E4</color>
+    <color name="custom_title_tab_text_default_color_night">#D11D3D</color>
+
+    <!--扫一扫 结果列表item 币种字体颜色-->
+    <color name="custom_qr_code_result_item_currency_night">#FF747380</color>
+    <!--编辑自选 币种名称 颜色-->
+    <color name="custom_edit_collect_currency_name_night">#FFE7E7E7</color>
+
+    <color name="custom_zapp_back_to_home_btn_night">#FF3D3D3D</color>
+    <color name="custom_zapp_home_bar_bg_night">#0F0D14</color>
+    <color name="custom_progress_bg_night">#33999999</color>
+    <color name="custom_entrust_item_divider_night">#08FFFFFF</color>
+    <color name="custom_entrust_item_expand_bg_night">#0F0D14</color>
+
+    <color name="custom_trans_dialog_count_down_shade_night">#C90F0D14</color>
+
+    <color name="custom_attr_banner_point_color_night">#FFFFFF</color>
+
+    <color name="custom_attr_entrust_txt_color_night">#000000</color>
+</resources>

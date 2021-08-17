@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_kline_time">Zeit</string>
+    <string name="txt_kline_high">Hoch</string>
+    <string name="txt_kline_low">Niedrig</string>
+
+    <string name="txt_kline_box_high">Höchste</string>
+    <string name="txt_kline_box_low">Am niedrigsten</string>
+    <string name="txt_kline_box_open">Öffnen</string>
+    <string name="txt_kline_box_close">Schließen</string>
+    <string name="txt_kline_gain">Erhöhen</string>
+    <string name="txt_kline_amplitude">Amplitude</string>
+    <string name="txt_kline_vol">Schließen</string>
+
+    <string name="txt_kline_unit_k">K</string>
+    <string name="txt_kline_unit_m">M</string>
+    <string name="txt_kline_unit_b">B</string>
+</resources>
