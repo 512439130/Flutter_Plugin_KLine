@@ -226,13 +226,12 @@ public class KLineChartView extends BaseKLineChartView {
 
     @Override
     public void onLeftSide() {
-//        System.out.println("onLeftSide-已经滑到K线右边界");
 
     }
 
     @Override
     public void onRightSide() {
-//        System.out.println("onRightSide");
+
     }
 
     @Override
@@ -248,13 +247,11 @@ public class KLineChartView extends BaseKLineChartView {
 
     @Override
     public void onScrollStart() {
-//        System.out.println("onScrollStart");
         isViewScroll = true;
     }
 
     @Override
     public void onScrollEnd() {
-//        System.out.println("onScrollEnd");
         isViewScroll = false;
     }
 
@@ -526,9 +523,6 @@ public class KLineChartView extends BaseKLineChartView {
 
 
     public int getOneScreenMaxCandleSize() {
-//        Log.d(TAG, "getOneScreenMaxCandleSize-getKLineWidth" + getKLineWidth());
-//        Log.d(TAG, "getOneScreenMaxCandleSize-getOverScrollRange" + getOverScrollRange());
-//        Log.d(TAG, "getOneScreenMaxCandleSize-getCandleWidth" + getCandleWidth());
         return (int) ((getKLineWidth() - getMinRightWidth())/ getCandleWidth());
     }
     /**
@@ -669,7 +663,6 @@ public class KLineChartView extends BaseKLineChartView {
      * 设置红色文字颜色
      */
     public void setRedColor(int color) {
-//        Log.d("COLOR-YY2:", String.valueOf(color));
         mMainDraw.setRed(color);
         mVolumeDraw.setRed(color);
         mMACDDraw.setRed(color);

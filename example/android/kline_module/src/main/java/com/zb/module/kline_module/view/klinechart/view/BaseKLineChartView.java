@@ -299,25 +299,22 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView {
         mAnimator.addListener(new Animator.AnimatorListener() {
             @Override
             public void onAnimationStart(Animator animation) {
-//                System.out.println("mAnimator-onAnimationStart");
 
             }
 
             @Override
             public void onAnimationEnd(Animator animation) {
-//                System.out.println("mAnimator-onAnimationEnd");
-//                setScrollX((int) (0-((getOverScrollRange()/getScaleX()))));
                 animatorCancel();
             }
 
             @Override
             public void onAnimationCancel(Animator animation) {
-//                System.out.println("mAnimator-onAnimationCancel");
+
             }
 
             @Override
             public void onAnimationRepeat(Animator animation) {
-//                System.out.println("mAnimator-onAnimationRepeat");
+
             }
         });
 
@@ -2101,8 +2098,6 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView {
             overScrollRange = 0;
         }
         mRightWidth = overScrollRange;
-        //设置右边区域宽度后初始化为最右边位置
-        Log.d(TAG,"isFirstLoad:"+isFirstLoad);
         if (isFirstLoad) {
             setScrollX((int) (0 - (mRightWidth / getScaleX())));
             isFirstLoad = false;
@@ -2568,16 +2563,10 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView {
     }
 
     public int getOneScreenMaxCandleSize() {
-        Log.d(TAG, "getOneScreenMaxCandleSize-getKLineWidth" + getKLineWidth());
-        Log.d(TAG, "getOneScreenMaxCandleSize-getOverScrollRange" + getOverScrollRange());
-        Log.d(TAG, "getOneScreenMaxCandleSize-getCandleWidth" + getCandleWidth());
         return (int) ((getKLineWidth() - getMinRightWidth())/ getCandleWidth());
     }
 
     public int getOneScreenMaxRightCandleSize() {
-        Log.d(TAG, "getOneScreenMaxCandleSize-getKLineWidth" + getKLineWidth());
-        Log.d(TAG, "getOneScreenMaxCandleSize-getOverScrollRange" + getOverScrollRange());
-        Log.d(TAG, "getOneScreenMaxCandleSize-getCandleWidth" + getCandleWidth());
         return (int) (getKLineWidth() / getCandleWidth());
     }
 
@@ -2596,15 +2585,13 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView {
             int oneScreenMaxCandleSize = getOneScreenMaxCandleSize();
             int differSize;
             float candleWidth = getCandleWidth();
-            if(kLineDataSize < oneScreenMaxCandleSize){
-//                Log.d(TAG,"K线数据量不足，顶到左边显示");
+            if (kLineDataSize < oneScreenMaxCandleSize) {
                 differSize = oneScreenMaxCandleSize - kLineDataSize;
                 float rightWidth = differSize * candleWidth + getMinRightWidth() - (getCircleRadius() / 2);
                 isFirstLoad = true;
                 setOverScrollRange(rightWidth);
                 setLessData(true);
-            }else{
-//                Log.d(TAG,"K线数据量足，正常显示");
+            } else {
                 setLessData(false);
                 setOverScrollRange(mRightWidth);
             }

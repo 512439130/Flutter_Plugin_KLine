@@ -79,7 +79,6 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
     }
 
     public void setTouchPoint(PointF mTouchPoint) {
-        Log.d(TAG,"getTouchPoint:"+mTouchPoint);
         this.mTouchPoint = mTouchPoint;
     }
 
@@ -147,12 +146,9 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-//        Log.d("test","开始滚动-onScroll："+"-distanceX:"+distanceX+"-distanceY:"+distanceY);
         onScrollStart();
-        //加速滑动时，隐藏按压辅助线（X,Y）
         if (isLongPress()) {
             setLongPress(false);
-            Log.d(TAG,"setLongPress-onScroll");
             invalidate();
         }
         if (!isLongPress() && !isMultipleTouch()) {
@@ -164,16 +160,13 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
 
     @Override
     public void onLongPress(MotionEvent event) {
-        Log.d(TAG,"onLongPress");
         setLongPress(true);
     }
 
     //滑动加速器(调整滑动速度)
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-//        System.out.println("onFling" + "-velocityX:" + velocityX + "-velocityY:" + velocityY);
         if (!isTouch() && isScrollEnable()) {
-//            mScroller.fling(mScrollX, 0, Math.round(velocityX / mScaleX * 1.2f), 0, Integer.MIN_VALUE, Integer.MAX_VALUE, 0, 0);
             mScroller.fling(mScrollX, 0, Math.round(velocityX / mScaleX * 1.6f), 0, Integer.MIN_VALUE, Integer.MAX_VALUE, 0, 0);
         }
         return true;
@@ -181,7 +174,6 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
 
     @Override
     public void computeScroll() {
-//        Log.d("test", "滚动结束-computeScroll");
         onScrollEnd();
         if (isScrollOnFling()) {
             if (mScroller.computeScrollOffset()) {
@@ -204,9 +196,7 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
 
     @Override
     public boolean onScale(ScaleGestureDetector detector) {
-        Log.d(TAG,"mScaleX：" + mScaleX);
-        if (!isLongPress()) {  //解决快速滑动，按压会引起的多点触发问题
-
+        if (!isLongPress()) {
             if (!isScaleEnable()) {
                 return false;
             }
@@ -214,14 +204,9 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                 detector.setQuickScaleEnabled(true);
             }
-
             mScaleX = mScaleX * detector.getScaleFactor();
-
             mScaleFocusX = detector.getFocusX();
             mScaleFocusY = detector.getFocusY();
-//            Log.d(TAG,"mScaleFocusX：" + mScaleFocusX);
-//            Log.d(TAG,"mScaleFocusY：" + mScaleFocusY);
-
             if (mScaleX < mScaleXMin) {
                 mScaleX = mScaleXMin;
             } else if (mScaleX > mScaleXMax) {
@@ -229,8 +214,6 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
             } else {
                 onScaleChanged(mScaleX, oldScale);
             }
-        } else {
-//            System.out.println("mScaleX。。。");
         }
         return true;
     }
@@ -243,7 +226,6 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
 
     protected void onScaleChanged(float scale, float oldScale) {
         updateScaleData();
-//        invalidate();
     }
 
     @Override
@@ -265,9 +247,6 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
      */
     @Override
     public void scrollTo(int x, int y) {
-//        Log.d("scrollTo-test", "-x:" + x + "-y:" + y);
-//        Log.d("scrollTo-test", "-getMinScrollX:" + getMinScrollX());
-//        Log.d("scrollTo-test", "-getMaxScrollX:" + getMaxScrollX());
         mScrollX = x;
         if (!isScrollEnable()) {
             mScroller.forceFinished(true);
@@ -293,18 +272,15 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
         // 按压手指超过1个
         if (event.getPointerCount() > 1) {
             setLongPress(false);
-//            Log.d(TAG,"setLongPress-event.getPointerCount() > 1");
         }
         //长按，点击，长按取消，滑动取消，长按滑动等事件区分 down move up
         //缩放 双指：ACTION_POINTER_UP
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
             case MotionEvent.ACTION_DOWN:
-                Log.d(TAG,"onTouchEvent-ACTION_DOWN");
                 touch = true;
                 setTouchPoint(new PointF(event.getX(), event.getY()));
                 break;
             case MotionEvent.ACTION_MOVE:
-                Log.d(TAG,"onTouchEvent-ACTION_MOVE");
                 if (isLongPress()) {
                     onLongPress(event);
                     vibration(false);
@@ -312,26 +288,17 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
                 }
                 break;
             case MotionEvent.ACTION_POINTER_DOWN:
-                Log.d(TAG,"onTouchEvent-ACTION_POINTER_DOWN");
                 break;
             case MotionEvent.ACTION_POINTER_UP:  //多个触摸点存在的情况下，其中一个触摸点消失了
-                Log.d(TAG,"onTouchEvent-ACTION_POINTER_UP");
                 if (!isLongPress()) {
-                    //放大缩小时触发
-//                    invalidate();
-                    //每次手指离开时，保存最新的缩放比例
                     SharedPreKlineUtils.getInstance().putString("KLINE_SCALE_X_COUNT", String.valueOf(mScaleX), getContext());
                 }
-
                 break;
             case MotionEvent.ACTION_UP:
-                Log.d(TAG,"onTouchEvent-ACTION_UP");
                 touch = false;
                 invalidate();
-
                 break;
             case MotionEvent.ACTION_CANCEL:
-                Log.d(TAG,"onTouchEvent-ACTION_CANCEL");
                 setLongPress(false);
                 touch = false;
                 invalidate();
@@ -358,15 +325,12 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
             if (isTouchPointInView(this, (int) ev.getRawX(), (int) ev.getRawY())) {
                 switch (action & MotionEvent.ACTION_MASK) {
                     case MotionEvent.ACTION_DOWN:
-//                        Log.d(TAG, "ACTION_DOWN");
                         positionX = x;
                         positionY = y;
                         break;
                     case MotionEvent.ACTION_MOVE:
                         float deltaX = Math.abs(x - positionX);
                         float deltaY = Math.abs(y - positionY);
-
-//                        Log.d(TAG, "ACTION_MOVE:" + "deltaX:" + deltaX + "deltaY:" + deltaY);
                         if (!isLongPress()) {
                             if (deltaX > deltaY) { // 水平滑动时，滑动事件子View自己处理
                                 if (deltaX > 10) {
@@ -378,32 +342,11 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
                         }else{
                             // 长按滑动时，滑动事件子View自己处理
                             getParent().requestDisallowInterceptTouchEvent(true);
-                            if (deltaX > deltaY) { //上下滑动时
-                                if (deltaX > 10) { //水平滑动
-//                                    Log.d(TAG, "长按水平滑动");
-                                } else{
-//                                    Log.d(TAG, "长按水平轻滑");
-                                }
-                            } else{
-                                  //有问题，会影响上下长按
-//                                if(isLongPress()){
-//                                    Log.d(TAG, "上下滑动清空长按view");
-//                                    setLongPress(false);
-//                                    invalidate();
-//                                }
-                                if (deltaY > 10) { //水平滑动
-//                                    Log.d(TAG, "长按上下滑动");
-                                } else{
-//                                    Log.d(TAG, "长按上下轻滑");
-                                }
-                            }
                         }
                         break;
                     case MotionEvent.ACTION_UP:
-//                        Log.d(TAG, "ACTION_UP");
                         break;
                     case MotionEvent.ACTION_CANCEL:
-//                        Log.d(TAG, "ACTION_CANCEL");
                         break;
                 }
             }
@@ -557,7 +500,6 @@ public abstract class ScrollAndScaleView extends RelativeLayout implements Gestu
      * 设置是否可以缩放
      */
     public void setScaleEnable(boolean scaleEnable) {
-        Log.d(TAG,"setScaleEnable:"+scaleEnable);
         mScaleEnable = scaleEnable;
     }
 
